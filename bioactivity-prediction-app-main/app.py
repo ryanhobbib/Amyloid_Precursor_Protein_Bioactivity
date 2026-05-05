@@ -56,7 +56,7 @@ This app allows you to predict the bioactivity towards inhibiting the `Amyloid P
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
+[Example input file](https://github.com/ryanhobbib/Amyloid_Precursor_Protein_Bioactivity/blob/main/bioactivity-prediction-app-main/example_amyloid_precursor.txt)
 """)
 
 if st.sidebar.button('Predict'):
